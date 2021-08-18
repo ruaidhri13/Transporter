@@ -7,15 +7,25 @@
 
 import SwiftUI
 
+struct Size {
+    static let listSpacing: CGFloat = 5
+}
+
 struct ContentView: View {
+    
+    private let deliveries: [Delivery]
+    
+    init(deliveries: [Delivery]) {
+        self.deliveries = deliveries
+    }
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        DeliveryListView(deliveries: DeliveryList.incomplete)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(deliveries: DeliveryList.incomplete)
     }
 }

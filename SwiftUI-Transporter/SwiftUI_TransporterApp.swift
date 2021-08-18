@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct SwiftUI_TransporterApp: App {
+    
+    private let deliveries = DeliveryList.incomplete
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(deliveries: deliveries)
         }
     }
 }

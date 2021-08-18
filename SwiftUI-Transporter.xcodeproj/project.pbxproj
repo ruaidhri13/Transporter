@@ -11,6 +11,10 @@
 		AD69A7EB26CC651000FE40D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD69A7EA26CC651000FE40D0 /* ContentView.swift */; };
 		AD69A7ED26CC651200FE40D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD69A7EC26CC651200FE40D0 /* Assets.xcassets */; };
 		AD69A7F026CC651200FE40D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD69A7EF26CC651200FE40D0 /* Preview Assets.xcassets */; };
+		AD69A7FA26CC69B800FE40D0 /* Delivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD69A7F926CC69B800FE40D0 /* Delivery.swift */; };
+		AD69A7FC26CC6C2200FE40D0 /* DeliveryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD69A7FB26CC6C2200FE40D0 /* DeliveryCell.swift */; };
+		AD69A7FE26CD0D2200FE40D0 /* DeliveryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD69A7FD26CD0D2200FE40D0 /* DeliveryDetailView.swift */; };
+		AD69A80026CD189B00FE40D0 /* DeliveryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD69A7FF26CD189B00FE40D0 /* DeliveryListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		AD69A7EC26CC651200FE40D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD69A7EF26CC651200FE40D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD69A7F126CC651200FE40D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD69A7F926CC69B800FE40D0 /* Delivery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delivery.swift; sourceTree = "<group>"; };
+		AD69A7FB26CC6C2200FE40D0 /* DeliveryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryCell.swift; sourceTree = "<group>"; };
+		AD69A7FD26CD0D2200FE40D0 /* DeliveryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDetailView.swift; sourceTree = "<group>"; };
+		AD69A7FF26CD189B00FE40D0 /* DeliveryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				AD69A7EC26CC651200FE40D0 /* Assets.xcassets */,
 				AD69A7F126CC651200FE40D0 /* Info.plist */,
 				AD69A7EE26CC651200FE40D0 /* Preview Content */,
+				AD69A7F926CC69B800FE40D0 /* Delivery.swift */,
+				AD69A7FB26CC6C2200FE40D0 /* DeliveryCell.swift */,
+				AD69A7FD26CD0D2200FE40D0 /* DeliveryDetailView.swift */,
+				AD69A7FF26CD189B00FE40D0 /* DeliveryListView.swift */,
 			);
 			path = "SwiftUI-Transporter";
 			sourceTree = "<group>";
@@ -139,7 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD69A7EB26CC651000FE40D0 /* ContentView.swift in Sources */,
+				AD69A7FC26CC6C2200FE40D0 /* DeliveryCell.swift in Sources */,
+				AD69A7FA26CC69B800FE40D0 /* Delivery.swift in Sources */,
 				AD69A7E926CC651000FE40D0 /* SwiftUI_TransporterApp.swift in Sources */,
+				AD69A80026CD189B00FE40D0 /* DeliveryListView.swift in Sources */,
+				AD69A7FE26CD0D2200FE40D0 /* DeliveryDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
